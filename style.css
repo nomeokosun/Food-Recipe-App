@@ -20,6 +20,19 @@
 
 }
 
+.header { width: 100%; }
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .header { width: 90%; }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .header { width: 100%; flex-direction: column; }
+}
+
+
 .logo-container{
     width: 30%;
     height: auto;
@@ -80,7 +93,7 @@
 }
 
 .subtext p{
-    color: #FB8500;
+    color: #06131c;
     font-weight: 500;
 }
 
@@ -185,7 +198,7 @@ input{
 }
 
 .Instructions-title-and-ol h6{
-    font-size: large;
+    font-size: larger;
     font-weight: 500;
     text-decoration: underline;
 }
@@ -196,7 +209,7 @@ input{
 }
 
 .cooking-time-title h6{
-    font-size: large;
+    font-size: larger;
     font-weight: 500;
     text-decoration: underline;
 }
@@ -222,6 +235,19 @@ input{
     font-style: italic;
     color:#023047;
     padding-top: 0.3rem;
+}
+
+
+.main-container { width: 100%; }
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .main-container { width: 90%; }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .main-container { width: 100%; flex-direction: column; }
 }
 
 
